@@ -35,7 +35,7 @@
 <style>
     .background {
         background: rgb(18,18,18);
-        background: linear-gradient(128deg, rgba(18,18,18,1) 0%, rgba(199,77,4,1) 33%, rgba(122,31,25,1) 100%);
+        background: linear-gradient(128deg, rgba(18,18,18,1) 0%, rgba(22,42,63,1) 28%, rgba(177,34,71,1) 100%);
 
         height: 100vh;
         width: 100vw;
