@@ -1,9 +1,15 @@
+<script>
+    function move() {
+        window.location.href = "/"
+    }
+</script>
+
 <div>
 
     <nav class="nav">
-        <img src="logo_white.svg" alt="">
+        <img on:click={move} src="logo_white.svg" alt="">
         <div class="navitems">
-            <a href="/portfolio">Portfolio</a>
+            <a href="/projects">Projects</a>
             <a href="/contact">Contact</a>
         </div>
     </nav>
