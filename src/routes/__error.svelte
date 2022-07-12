@@ -43,7 +43,6 @@
     }
 
     .fade {
-        background-color: rgba(18,18,18,0.3);
         height: 100vh;
         width: 100vw;
         display: flex;
