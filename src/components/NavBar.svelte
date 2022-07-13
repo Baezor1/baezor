@@ -1,4 +1,11 @@
 <script>
+
+    export let logo
+
+    if (!logo) {
+        logo = "logo_white.svg"
+    }
+
     function move() {
         window.location.href = "/"
     }
@@ -7,7 +14,7 @@
 <div>
 
     <nav class="nav">
-        <img on:click={move} src="logo_white.svg" alt="">
+        <img on:click={move} src={logo} alt="">
         <div class="navitems">
             <a href="/" on:click={() => {
                 window.location.href = "/"
