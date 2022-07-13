@@ -9,8 +9,12 @@
     <nav class="nav">
         <img on:click={move} src="logo_white.svg" alt="">
         <div class="navitems">
-            <a href="/projects">Projects</a>
-            <a href="/contact">Contact</a>
+            <a href="/projects" on:click={() => {
+                window.location.href = "/projects"
+            }}>Projects</a>
+            <a href="/contact" on:click={() => {
+                window.location.href = "/contact"
+            }}>Contact</a>
         </div>
     </nav>
 
