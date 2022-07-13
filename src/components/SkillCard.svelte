@@ -6,7 +6,7 @@
 </script>
 
 <div class="card">
-    <a href={link} target="_blank">
+    <a href={link} on:click={() => {window.location.href = link}}>
         <img src={img} alt="">
         <h1>{title}</h1>
         <p>{desc}</p>
