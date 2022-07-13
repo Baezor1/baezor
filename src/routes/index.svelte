@@ -3,6 +3,7 @@
     import Footer from "../components/Footer.svelte"
     import Skills from "../components/Skills.svelte"
     import About from "../components/About.svelte"
+    import Contact from "../components/Contact.svelte"
 </script>
 
 <div class="landing">
@@ -14,6 +15,7 @@
 </div>
 <About />
 <Skills />
+<Contact />
 <Footer />
 <NavBar />
 
