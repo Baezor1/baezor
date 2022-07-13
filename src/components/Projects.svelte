@@ -4,11 +4,54 @@
 </script>
 
 <div class="projects-container">
+    <!-- Yes I'm Hard Coding This Deal with it -->
     <Card
-        title="Skript"
-        desc="Skript is a language used to create Minecraft servers. I've been using Skript for over 3 years and it got me into programming."
-        img="https://avatars.githubusercontent.com/u/39464898?s=200&v=4"
-        link="/projects/skript"
+        title="Personal Site"
+        desc="The website you are currently on! This site was created with SvelteKit!"
+        link="/projects/personal-site"
+        tag="Website"
+    />
+    <Card
+        title="Minematic Site"
+        desc="The website for the Minematic network. This was created with SvelteKit."
+        link="/projects/minematic-site"
+        tag="Website"
+    />
+    <Card
+        title="Minematic"
+        desc="Minematic is a Minecraft server I'm working on where you can create your own games!"
+        link="/projects/minematic"
+        tag="Minecraft"
+    />
+    <Card
+        title="Factory"
+        desc="This server was created as a commission for the Orefield network. You can build your own factory and grind your way to the top!"
+        link="/projects/factory"
+        tag="Minecraft"
+    />
+    <Card
+        title="Minezone"
+        desc="Minezone was a survival server with many custom features. This server has been closed for awhile now."
+        link="/projects/minezone"
+        tag="Minecraft"
+    />
+    <Card
+        title="Skript Crates"
+        desc="A script you can purchase on the Minehut marketplace!"
+        link="/projects/skript-crates"
+        tag="Skript"
+    />
+    <Card
+    title="Box Clear"
+    desc="A script you can purchase on the Minehut marketplace!"
+    link="/projects/box-clear"
+    tag="Skript"
+    />
+    <Card
+        title="Cool Experiments"
+        desc="A collection of experiments in the Skript language."
+        link="/projects/skript-crates"
+        tag="Experiment"
     />
 </div>
 
