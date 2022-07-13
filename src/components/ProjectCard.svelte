@@ -31,12 +31,7 @@
         transition: all 0.5s;
         overflow: hidden;
     }
-
-    .card img {
-        max-width: 10vw;
-        height: 10vw;
-    }
-
+    
     .card:hover {
         transition: all 0.5s;
         transform: scale(1.05);

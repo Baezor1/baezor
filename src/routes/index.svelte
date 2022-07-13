@@ -7,7 +7,8 @@
 
 <div class="landing">
     <div class="container">
-        <h1>Hello! I'm Baezor!</h1>
+        <h1>Hello!</h1>
+        <h1>I'm Baezor!</h1>
         <p>A developer working on a bunch of fun projects!</p>
     </div>
 </div>
@@ -27,14 +28,14 @@
     }
 
     .container {
-        width: 40vw;
+        width: 80vw;
         margin: auto;
         padding-top: 0;
     }
 
     .container h1 {
         font-size: 7rem;
-        margin-bottom: 0;
+        margin: 0;
         background: rgb(63,139,219);
         background: linear-gradient(128deg, rgba(63,139,219,1) 0%, rgba(177,34,71,1) 100%);
         -webkit-background-clip: text;
@@ -43,6 +44,8 @@
     .container p {
         font-size: 2rem;
         color: lightgray;
+        margin: 0;
+        margin-top: 2vh;
     }
 
     @media (max-width: 768px) {

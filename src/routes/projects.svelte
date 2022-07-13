@@ -20,8 +20,6 @@
         text-align: center;
         padding-top: 10vh;
         padding-bottom: 10vh;
-        background: rgb(18,18,18);
-        background: linear-gradient(128deg, rgba(18,18,18,1) 0%, rgba(22,42,63,1) 28%, rgba(177,34,71,1) 100%);
         border-bottom: 1px solid rgba(255, 255, 255, .2);
         margin-bottom: 0;
     }
@@ -35,6 +33,10 @@
     .container h1 {
         font-size: 5rem;
         margin-bottom: 0;
+        background: rgb(63,139,219);
+        background: linear-gradient(128deg, rgba(63,139,219,1) 0%, rgba(177,34,71,1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 
     @media (max-width: 768px) {
