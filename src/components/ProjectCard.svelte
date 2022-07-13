@@ -5,7 +5,7 @@
     export let link
 
     if (!tag) {
-        tag = "Minecraft"
+        tag = "Other"
     }
 </script>
 
@@ -13,7 +13,7 @@
     <a href={link} on:click={() => {window.location.href = link}}>
         <h1>{title}</h1>
         <p>{desc}</p>
-        <div class="tag">
+        <div class="tag {tag}">
             <p>{tag}</p>
         </div>
     </a>
@@ -49,6 +49,27 @@
         border-radius: 8px;
         width: 70%;
         margin: auto;
+    }
+
+    .Website {
+        background-color: #FBAB7E;
+        background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    }
+    .Other {
+        background-color: #FF9A8B;
+        background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+    }
+
+    .Skript {
+        background-color: #08AEEA;
+        background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+
+    }
+
+    .Experiment {
+        background-color: #FEE140;
+        background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);
+
     }
 
     .tag p {
