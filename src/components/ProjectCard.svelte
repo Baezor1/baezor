@@ -10,7 +10,7 @@
 </script>
 
 <div class="card">
-    <a href={link}>
+    <a href={link} on:click={() => {window.location.href = link}}>
         <h1>{title}</h1>
         <p>{desc}</p>
         <div class="tag">
