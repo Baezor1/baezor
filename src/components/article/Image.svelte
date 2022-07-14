@@ -12,8 +12,8 @@
     }
 
     .img-container img {
-        max-width: 50vw;
-        margin-left: 25vw;
+        max-width: 80vw;
+        margin-left: 10vw;
         margin-top: 5vh;
         margin-bottom: 5vh;
     }
