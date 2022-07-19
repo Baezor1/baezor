@@ -12,7 +12,9 @@
 </script>
 
 <div>
-
+    <div class="abovenav">
+        <p>🔧 This site is currently under construction. 👷</p>
+    </div>
     <nav class="nav">
         <img on:click={move} src={logo} alt="">
         <div class="navitems">
@@ -29,6 +31,24 @@
 
 <style>
 
+    .abovenav {
+        height: 4vh;
+        width: 100vw;
+        position: fixed;
+        top: 0;
+        color: white;
+        background: rgb(219,157,63);
+        background: linear-gradient(128deg, rgba(219,157,63,0.5) 0%, rgba(177,74,34,0.5) 100%);
+        -webkit-backdrop-filter: blur(5px);
+        backdrop-filter: blur(5px);
+        text-align: center;
+        font-size: 1.5vh;
+    }
+
+    .abovenav p {
+        margin-top: 1vh;
+    }
+
     .nav {
         color: white;
         display: flex;
@@ -36,6 +56,7 @@
         justify-content: space-between;
         height: 7vh;
         width: 100vw;
+        margin-top: 4vh;
         position: fixed;
         top: 0;
         background-color: rgba(255, 255, 255, 0);
