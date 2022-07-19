@@ -15,6 +15,7 @@
         </div>
         <p style="text-align: center;">Made with ❤️ by <a href="https://github.com/Baezor1">Baezor</a>.</p>
         <p style="text-align: center;">Copyright © 2022 <a href="https://github.com/Baezor1">Baezor</a>. All Rights Reserved. View source on <a href="https://github.com/Baezor1/baezor">Github</a>.</p>
+        <p style="text-align: center;"><a href="https://github.com/Baezor1/baezor/releases">v0.0.1-dev</a></p>
     </div>
 
 </footer>
