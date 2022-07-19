@@ -35,7 +35,6 @@
 <style>
     .background {
         background: rgb(18,18,18);
-        background: linear-gradient(128deg, rgba(18,18,18,1) 0%, rgba(22,42,63,1) 28%, rgba(177,34,71,1) 100%);
 
         height: 100vh;
         width: 100vw;
@@ -69,6 +68,10 @@
         font-size: 7vh;
         margin: 0;
         margin-bottom: 1vh;
+        background: rgb(63,139,219);
+        background: linear-gradient(128deg, rgba(63,139,219,1) 0%, rgba(177,34,71,1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 
     .flex p {
@@ -82,6 +85,9 @@
         margin-bottom: 1vh;
         opacity: 100%;
         width: 10vw;
+        background: rgb(63,139,219);
+        background: linear-gradient(128deg, rgba(63,139,219,1) 0%, rgba(177,34,71,1) 100%);
+        color: #121212;
     }
 
     @media (max-width: 768px) {
