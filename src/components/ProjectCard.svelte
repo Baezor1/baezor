@@ -63,7 +63,7 @@
     }
     
     .card-container {
-        width: 60%;
+        width: 50%;
         text-align: left;
         padding: 5%;
         padding-top: 0;
@@ -71,7 +71,7 @@
     }
 
     .card-container-small {
-        width: 20%;
+        width: 30%;
     }
 
     .card-container h1 {
