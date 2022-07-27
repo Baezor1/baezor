@@ -6,6 +6,13 @@
     import Contact from "../components/Contact.svelte"
 </script>
 
+<svelte:head>
+    <title>Baezor</title>
+    <meta name="description" content="A Minecraft server dedicated to building awesome games.">
+    <meta name="keywords" content="Baezor, Minecraft, Developer">
+    <meta property="og:image" content="https://cdn.discordapp.com/attachments/994279796588687421/1001913410507767918/favicon_baezor.png" />
+</svelte:head>
+
 <div class="landing">
     <div class="container">
         <h1>Hello!</h1>
