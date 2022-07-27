@@ -10,7 +10,7 @@
     <title>Baezor</title>
     <meta name="description" content="A Minecraft server dedicated to building awesome games.">
     <meta name="keywords" content="Baezor, Minecraft, Developer">
-    <meta property="og:image" content="https://cdn.discordapp.com/attachments/994279796588687421/1001913410507767918/favicon_baezor.png" />
+    <meta name="author" content="Baezor">
 </svelte:head>
 
 <div class="landing">
