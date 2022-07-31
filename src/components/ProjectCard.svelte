@@ -5,6 +5,7 @@
     export let link
     export let github
     export let discord
+    export let img
 </script>
 
 <div class="card">
@@ -38,6 +39,9 @@
     </div>
     <div class="card-container">
         <p>{desc}</p>
+        {#if img}
+        <img src={img} alt="">
+        {/if}
     </div>
 </div>
 
@@ -68,6 +72,12 @@
         padding: 5%;
         padding-top: 0;
         padding-bottom: 0;
+    }
+
+    .card-container img {
+        width: 100%;
+        padding-bottom: 1vh;
+        border-radius: 8px;
     }
 
     .card-container-small {
