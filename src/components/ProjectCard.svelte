@@ -76,7 +76,7 @@
 
     .card-container img {
         width: 100%;
-        padding-bottom: 1vh;
+        margin-bottom: 1vh;
         border-radius: 8px;
     }
 
