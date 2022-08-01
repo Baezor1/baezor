@@ -119,6 +119,10 @@
         .container {
             width: 80vw;
         }
+
+        .content {
+            width: 80vw;
+        }
     }
 
 </style>
