@@ -45,13 +45,9 @@
         <li>You must pay in full before receiving your files/scripts.</li>
         <li>Offers for a percentage of ownership in your project will be rejected.</li>
         <li>Before starting your project, you must pay 50% up front.</li>
+        <li>Requesting features outside of the original agreement will result in an extra charge.</li>
     </ol>
-    <h1>(4) Extra Payment Terms</h1>
-    <ol>
-        <li>Requesting extra features, website pages, etc. will cost extra.</li>
-        <li>The extra cost agreed upon will be added to the final payment.</li>
-    </ol>
-    <h1>(5) Skript Terms</h1>
+    <h1>(4) Skript Terms</h1>
     <ol>
         <li>Credit must remain in the script.</li>
         <ul>
@@ -59,7 +55,7 @@
             <li>You must keep command credit if your command contains it.</li>
         </ul>
     </ol>
-    <h1> (6) Website Terms</h1>
+    <h1> (5) Website Terms</h1>
     <ol>
         <li>You must keep credit in the footer.</li>
         <li>All websites are created with SvelteKit, Github, and Vercel. Support will not be provided if you use an alternative host.</li>
