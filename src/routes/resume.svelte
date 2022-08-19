@@ -1,0 +1,57 @@
+<script>
+    import NavBar from "../components/NavBar.svelte"
+    import Footer from "../components/Footer.svelte"
+</script>
+
+<svelte:head>
+    <title>Baezor - Resume</title>
+    <meta name="description" content="A compact way to see all of my projects and skills.">
+    <meta name="keywords" content="Baezor, Minecraft, Developer">
+    <meta name="author" content="Baezor">
+</svelte:head>
+
+<div class="header">
+    <div class="container">
+        <h1>Resume</h1>
+    </div>
+</div>
+<Footer />
+<NavBar />
+
+<style>
+    .header {
+        width: 100vw;
+        text-align: center;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        border-bottom: 1px solid rgba(255, 255, 255, .2);
+        margin-bottom: 0;
+    }
+
+    .container {
+        width: 40vw;
+        margin: auto;
+        padding-top: 0;
+    }
+
+    .container h1 {
+        font-size: 5rem;
+        margin-bottom: 0;
+        background: rgb(63,139,219);
+        background: linear-gradient(128deg, rgba(63,139,219,1) 0%, rgba(177,34,71,1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    @media (max-width: 768px) {
+
+        .container h1 {
+            font-size: 4rem;
+        }
+
+        .container {
+            width: 80vw;
+        }
+    }
+
+</style>
