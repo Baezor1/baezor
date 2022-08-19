@@ -1,10 +1,23 @@
 <script>
     import Card from "./ProjectCard.svelte"
-    import Title from "./Title.svelte"
 </script>
 
 <div class="projects-container">
     <!-- Yes I'm Hard Coding This Deal with it -->
+    <Card
+        title="Icey's Website"
+        desc="A website commissioned by Icey."
+        year="2022"
+        link="https://icey.gg/"
+        img=""
+    />
+    <Card
+        title="Quartz Website"
+        desc="A website commissioned for Quartz Studios LTD."
+        year="2022"
+        link="https://qrtz.gg/"
+        img=""
+    />
     <Card
         title="NavaLabs Website"
         desc="A website commissioned for NavaLabs."
